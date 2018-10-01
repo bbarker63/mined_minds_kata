@@ -9,8 +9,8 @@ def fizzbuzz
 end
 
 for x in (1..100)
-	if x = fizzbuzz then "fizzbuzz"
-	elsif x = buzz then "buzz"
-	elsif x = fizz then "fizz"
+	if fizzbuzz then "fizzbuzz"
+	elsif buzz then "buzz"
+	elsif fizz then "fizz"
 	else x
 	end
